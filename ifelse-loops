@@ -1,0 +1,68 @@
+### Primer 1
+##
+# kor_ime = "mika"
+# lozinka = "loz"
+# if kor_ime=="mika" and lozinka=="loz":
+#     print("Uspesna prijava")
+# else:
+#     print("Neuspesna prijava") 
+
+### Primer 2
+## 
+
+# kor_ime = "mika"
+# lozinka = "loz1"
+
+# if kor_ime == "mika":
+#     if lozinka == "loz":
+#         print("Uspesna prijava")
+#     else:
+#         print("Pogresna je sifra")
+# else:
+#     print("Pogresno korisnicko ime")
+
+### Primer 3
+## Ispitati da li su tri duzi stranice trougla
+
+# a = 3 
+# b = 4 
+# c = 5
+
+# if (a + b > c and b + c > a and a + c > b):
+#     print("Ovo su stranice trougla")
+# else :
+#     print("Trougao ne postoji")
+
+### Petlje
+##
+
+# for i in range(100):
+#     print("Cao cao" + str(i))
+
+# suma = 0
+# for i in range(0,11):
+#     suma += i
+#     # print("Suma je " + str(suma))
+#     print("Brojac i je: " + str(i) + ": a suma je: " + str(suma))
+
+### Suma parnih brojeva
+# suma = 0
+# for i in range(0,11):
+#     if(i%2==0):
+#         suma += i
+# print(suma)    
+
+# suma = 0
+# for i in range(0,11,2): ### ova dvojka znaci ove step, korak, za dva se povecava
+#     suma += i
+# print(suma) 
+
+# for i in [3,14,15,6,77]:
+#     print(i)
+
+lista = [i for i in range(0,5)]   ### list comprehension
+print(lista)
+
+
+    
+
