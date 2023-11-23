@@ -75,6 +75,19 @@ print(g["a"]["por"])
 print(g["a"]["por"][0])
 
 
+## Konverzija iz jedne sekvence u drugu
+
+aa = (2,4,2,3,3,4)
+print(a)
+bb = list(aa)
+print(type(bb))
+print(bb)
+
+cc = set(bb)
+print(type(cc))
+print(cc)
+
+
 
 
 
