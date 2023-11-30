@@ -23,3 +23,4 @@ lista = sortiraj(lista)
 ispis(lista)'''
  
 ispis(sortiraj(unos()))
+
