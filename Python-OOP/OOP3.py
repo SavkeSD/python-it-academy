@@ -119,7 +119,7 @@ class Person:
 
 class Employee(Person):   ### Ovde klasa employee nasledjuje klasu Person
     def __init__ (self,name,age,gender,salary,job_title):
-        super().__init__(name,age,gender)
+        super().__init__(name,age,gender)   ### pozivanje konstruktora iz Persona
         self.salary = salary
         self.job_title = job_title
 

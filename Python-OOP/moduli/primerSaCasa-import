@@ -1,0 +1,54 @@
+a.py
+ 
+#print("A")
+#print("Trava raste")
+ 
+def f1():
+    print("Ovo je f1 iz A")
+ 
+def foo():
+    print("AAA")
+ 
+def func2(): 
+    from b import func1 
+    pass
+ 
+#print("Pozvano iz A ",__name__)
+ 
+if __name__=="__main__":
+    print("Trava raste")
+ 
+------------------------
+ 
+b.py
+ 
+#import a
+ 
+#a.f1()
+ 
+'''from a import f1 as f
+from a import f2
+ 
+#from a import *
+ 
+ 
+print("Pozvano iz B ",__name__)
+ 
+#f1()
+f()
+f2()'''
+ 
+def foo():
+    print("BBB")
+ 
+def func1(): 
+    from a import func2 
+    pass
+ 
+-------------
+ 
+c.py
+ 
+from a import * 
+from b import * 
+foo() 
