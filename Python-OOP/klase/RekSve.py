@@ -1,4 +1,6 @@
-n = 3
+### ovo je koncept zvan back tracking, iliti pretraga sa vracanjem  -->> lavirint npr
+
+n = 5
 
 a = [0]*n
 print(a)
